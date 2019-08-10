@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/user")
     public  String getUserName(){
-        return "小明同学";
+        return "小明同学你真帅！！！！！！";
     }
 
 }
