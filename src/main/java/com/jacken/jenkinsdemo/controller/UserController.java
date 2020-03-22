@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/user")
     public  String getUserName() {
-        return "哈哈哈这是测试";
+        return "哈哈哈这是测试  可以可以";
     }
 }
