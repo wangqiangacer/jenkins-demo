@@ -12,4 +12,9 @@ public class UserController {
         System.out.println(i);
         return "哈哈哈这是测试  可以可以";
     }
+
+    @RequestMapping("/index")
+    public  String index(){
+        return  "index .....";
+    }
 }
